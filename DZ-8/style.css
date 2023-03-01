@@ -1,0 +1,96 @@
+body{
+    background-image: url(./background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    margin: 25px;
+    justify-content: space-between;
+    border: 2px solid rgb(236, 204, 204);
+    border-radius: 20px;
+}
+
+#login{
+    display: flex;
+    margin: 20px;
+    border-radius: 15px;
+    width: 250px;
+    height: 30px;
+}
+
+#password{
+    display: flex;
+    border-radius: 15px;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+#click{
+    display: flex;
+    border-radius: 15px;
+    width: 80%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    background-color: rgb(103, 150, 231);
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    margin: 25px;
+    justify-content: space-between;
+    border: 2px solid rgb(236, 204, 204);
+    border-radius: 20px;
+}
+
+#loginIn{
+    display: flex;
+    margin: 20px;
+    border-radius: 15px;
+    width: 250px;
+    height: 30px;
+}
+
+#passwordIn{
+    display: flex;
+    border-radius: 15px;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+#enter{
+    display: flex;
+    border-radius: 15px;
+    width: 80%;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    background-color: rgb(103, 150, 231);
+}
+
+h1{
+    color: white;
+}
